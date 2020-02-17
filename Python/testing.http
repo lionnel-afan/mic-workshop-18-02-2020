@@ -1,0 +1,41 @@
+
+### Log User IN
+POST /api/login HTTP/1.1
+Host: 0.0.0.0:7777
+Content-Type: application/json
+
+{ 
+ "username" : "lionnel_o",
+ "name" : "Lionnel Afangbedjee"
+}
+###  Get All Users 
+
+GET http://127.0.0.1:7777/api/user
+content-type: application/json
+
+{
+    "token": "8f41bc02-e819-4525-bdae-6a1a038166e6"
+}
+
+###
+
+{
+      "status": 200,
+  "token": "b81b711f-716f-467f-b487-52a53ddbc6a1",
+  "username": "lionnela",
+  "users": [
+    {
+      "Username": "lionneli",
+      "Name": "Lionnel Afangbedjee",
+      "IsActive": 1,
+      "IP": "127.0.0.1"
+    },
+    {
+      "Username": "lionnela",
+      "Name": "Lionnel Afangbedjee",
+      "IsActive": 2,
+      "IP": "127.0.0.1"
+    }
+  ]
+}
+
