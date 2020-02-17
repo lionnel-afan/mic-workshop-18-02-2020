@@ -1,0 +1,10 @@
+### Testing the endpoints using a random endpoint
+POST http://0.0.0.0:8080/{{$randomInt min max}}
+
+####  Testing the SendMessage endpoints
+POST http://0.0.0.0:8080/SendMessage?message=Lionnel is at home
+content-type: application/json
+
+{
+    "message": "Salut"
+}

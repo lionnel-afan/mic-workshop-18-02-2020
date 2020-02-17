@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
+}
+
+
+npm i express --save-dev
