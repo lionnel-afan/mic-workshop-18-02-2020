@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <div class="login-container">
+    <form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+      <h5 *ngIf="success">Your form is valid!</h5>
+
+      <label>
+        Username :
+        <input
+          type="text"
+          placeholder="Enter a valid username"
+          formControlName="username"
+        />
+      </label>
+
+      <label>
+        Full name:
+        <input
+          type="text"
+          placeholder="Enter yur full name"
+          formControlName="name"
+        />
+      </label>
+
+      <input type="submit" value="Log me in" class="cta" />
+    </form>
+  </div>
+</div>

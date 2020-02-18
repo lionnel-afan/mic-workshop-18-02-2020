@@ -1,0 +1,11 @@
+
+
+
+POST /api/login HTTP/1.1
+Host: 0.0.0.0:7777
+Content-Type: application/json
+
+{ 
+ "username" : "lionnel",
+ "name" : "Lionnel Afangbedjee"
+}

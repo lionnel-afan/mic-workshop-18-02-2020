@@ -1,11 +1,11 @@
 
 ### Log User IN
-POST /api/login HTTP/1.1
+POST http://0.0.0.0:7777/api/login HTTP/1.1
 Host: 0.0.0.0:7777
 Content-Type: application/json
 
 { 
- "username" : "lionnel_o",
+ "username" : "lionnel_ppp",
  "name" : "Lionnel Afangbedjee"
 }
 ###  Get All Users 
